@@ -4,7 +4,7 @@
 
 Multi-agent orchestration layer for [Kimi CLI](https://github.com/moonshotai/kimi-cli).
 
-kimiplugin transforms Kimi from a single-session agent into a coordinated system with:
+oh-my-kimicode transforms Kimi from a single-session agent into a coordinated system with:
 
 - **Role prompts** (`/prompts:name`) for specialized agents
 - **Workflow skills** (`$name`) for repeatable execution modes
@@ -20,7 +20,7 @@ Kimi CLI is powerful for direct tasks. kimiplugin adds structure for larger work
 - Memory surfaces for long-running sessions
 - Operational controls for launch and cancellation
 
-kimiplugin is an **add-on**, not a fork. It uses Kimi's native extension points.
+oh-my-kimicode is an **add-on**, not a fork. It uses Kimi's native extension points.
 
 ## Requirements
 
@@ -129,7 +129,7 @@ Installed to `~/.kimiplugin/skills/`:
 ## Project Structure
 
 ```
-kimiplugin/
+oh-my-kimicode/
   bin/kimiplugin.js     # CLI entry point
   src/
     cli/                # CLI commands
@@ -145,7 +145,7 @@ kimiplugin/
 
 ```bash
 git clone https://github.com/islee23520/oh-my-kimicode.git
-cd kimiplugin
+cd oh-my-kimicode
 npm install
 npm run build
 npm test
@@ -159,6 +159,6 @@ MIT
 
 This project is heavily inspired by [**oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) by **Yeachan Heo** - a multi-agent orchestration layer for OpenAI Codex CLI.
 
-kimiplugin adapts the same concepts and architecture for the Kimi CLI ecosystem.
+oh-my-kimicode adapts the same concepts and architecture for the Kimi CLI ecosystem.
 
 Thank you to Yeachan Heo for the original concept and implementation!
