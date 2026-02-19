@@ -14,7 +14,7 @@ import { getProjectStateDir } from '../utils/paths.js';
 import { getPackageRoot } from '../utils/package.js';
 
 const HELP = `
-oh-my-kimicode (omk) - Multi-agent orchestration for Kimi CLI
+oh-my-kimi (omk) - Multi-agent orchestration for Kimi CLI
 
 Usage:
   omk                    Launch Kimi CLI with enhanced context

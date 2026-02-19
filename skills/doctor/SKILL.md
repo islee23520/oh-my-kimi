@@ -1,6 +1,6 @@
 ---
 name: doctor
-description: Diagnose and fix oh-my-kimicode installation issues
+description: Diagnose and fix oh-my-kimi installation issues
 ---
 
 # Doctor Skill

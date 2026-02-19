@@ -1,10 +1,10 @@
-# oh-my-kimicode (omk)
+# oh-my-kimi (omk)
 
 > _Your Kimi CLI, supercharged._
 
 Multi-agent orchestration layer for [Kimi CLI](https://github.com/moonshotai/kimi-cli).
 
-oh-my-kimicode transforms Kimi from a single-session agent into a coordinated system with:
+oh-my-kimi transforms Kimi from a single-session agent into a coordinated system with:
 
 - **Role prompts** (`/prompts:name`) for specialized agents
 - **Workflow skills** (`$name`) for repeatable execution modes
@@ -20,7 +20,7 @@ Kimi CLI is powerful for direct tasks. kimiplugin adds structure for larger work
 - Memory surfaces for long-running sessions
 - Operational controls for launch and cancellation
 
-oh-my-kimicode is an **add-on**, not a fork. It uses Kimi's native extension points.
+oh-my-kimi is an **add-on**, not a fork. It uses Kimi's native extension points.
 
 ## Requirements
 
@@ -32,10 +32,10 @@ oh-my-kimicode is an **add-on**, not a fork. It uses Kimi's native extension poi
 
 ```bash
 # Install globally
-npm install -g oh-my-kimicode
+npm install -g oh-my-kimi
 
 # Or use npx
-npx oh-my-kimicode setup
+npx oh-my-kimi setup
 
 # Run setup
 kp setup
@@ -129,7 +129,7 @@ Installed to `~/.kimiplugin/skills/`:
 ## Project Structure
 
 ```
-oh-my-kimicode/
+oh-my-kimi/
   bin/kimiplugin.js     # CLI entry point
   src/
     cli/                # CLI commands
@@ -144,8 +144,8 @@ oh-my-kimicode/
 ## Development
 
 ```bash
-git clone https://github.com/islee23520/oh-my-kimicode.git
-cd oh-my-kimicode
+git clone https://github.com/islee23520/oh-my-kimi.git
+cd oh-my-kimi
 npm install
 npm run build
 npm test
@@ -159,6 +159,6 @@ MIT
 
 This project is heavily inspired by [**oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) by **Yeachan Heo** - a multi-agent orchestration layer for OpenAI Codex CLI.
 
-oh-my-kimicode adapts the same concepts and architecture for the Kimi CLI ecosystem.
+oh-my-kimi adapts the same concepts and architecture for the Kimi CLI ecosystem.
 
 Thank you to Yeachan Heo for the original concept and implementation!

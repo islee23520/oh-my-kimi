@@ -25,7 +25,7 @@ interface TeamConfig {
 export async function teamCommand(args: string[], options: TeamOptions): Promise<void> {
   if (args.length === 0) {
     console.log(`
-oh-my-kimicode team - Parallel worker orchestration
+oh-my-kimi team - Parallel worker orchestration
 
 Usage:
   omk team [ralph] <N>:<agent-type> "<task description>"

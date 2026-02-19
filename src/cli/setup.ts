@@ -1,5 +1,5 @@
 /**
- * oh-my-kimicode setup - Automated installation
+ * oh-my-kimi setup - Automated installation
  * Installs prompts, skills, and AGENTS.md
  */
 

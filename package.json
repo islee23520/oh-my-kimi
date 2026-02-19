@@ -1,5 +1,5 @@
 {
-  "name": "oh-my-kimicode",
+  "name": "oh-my-kimi",
   "version": "0.1.0",
   "description": "Multi-agent orchestration layer for Kimi CLI - Enhanced productivity with specialized agents and workflow skills",
   "type": "module",
@@ -39,7 +39,7 @@
   "author": "Kimi Plugin Community",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/islee23520/oh-my-kimicode.git"
+    "url": "git+https://github.com/islee23520/oh-my-kimi.git"
   },
   "license": "MIT",
   "dependencies": {
