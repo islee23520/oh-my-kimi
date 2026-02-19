@@ -1,0 +1,53 @@
+{
+  "name": "kimiplugin",
+  "version": "0.1.0",
+  "description": "Multi-agent orchestration layer for Kimi CLI - Enhanced productivity with specialized agents and workflow skills",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "kimiplugin": "bin/kimiplugin.js",
+    "kimi-plugin": "bin/kimiplugin.js",
+    "kp": "bin/kimiplugin.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "setup": "node bin/kimiplugin.js setup",
+    "doctor": "node bin/kimiplugin.js doctor",
+    "test": "npm run build && node --test dist/**/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "prompts/",
+    "skills/",
+    "templates/",
+    "scripts/"
+  ],
+  "keywords": [
+    "kimi",
+    "kimi-cli",
+    "cli",
+    "agents",
+    "orchestration",
+    "multi-agent",
+    "ai",
+    "productivity"
+  ],
+  "author": "Kimi Plugin Community",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeachan-Heo/kimiplugin.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
