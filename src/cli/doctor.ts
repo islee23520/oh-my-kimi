@@ -24,7 +24,7 @@ interface CheckResult {
 }
 
 export async function doctor(options: DoctorOptions = {}): Promise<void> {
-  console.log('oh-my-kimicode doctor');
+  console.log('oh-my-kimi doctor');
   console.log('======================\n');
   console.log(`Version: ${getPackageVersion()}\n`);
 
