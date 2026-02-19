@@ -24,7 +24,7 @@ export async function setup(options: SetupOptions = {}): Promise<void> {
   const { force = false, dryRun = false, verbose = false } = options;
   const pkgRoot = getPackageRoot();
 
-  console.log('oh-my-kimicode setup');
+  console.log('oh-my-kimi setup');
   console.log('====================\n');
 
   // Step 1: Ensure directories exist
