@@ -11,7 +11,7 @@ oh-my-kimicode transforms Kimi from a single-session agent into a coordinated sy
 - **Team orchestration** (`kp team`) for parallel workers
 - **Persistent state** for long-running sessions
 
-## Why kimiplugin
+## Why oh-my-kimicode
 
 Kimi CLI is powerful for direct tasks. kimiplugin adds structure for larger work:
 
