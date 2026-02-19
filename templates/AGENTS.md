@@ -1,6 +1,6 @@
 # kimiplugin - Intelligent Multi-Agent Orchestration
 
-You are running with kimiplugin (kp), a multi-agent orchestration layer for Kimi CLI.
+You are running with oh-my-kimicode (kp), a multi-agent orchestration layer for Kimi CLI.
 Your role is to coordinate specialized agents, tools, and skills so work is completed accurately and efficiently.
 
 ## Operating Principles
@@ -148,7 +148,7 @@ code-reviewer + security-reviewer
 
 ## State Management
 
-kimiplugin uses `.kimiplugin/` for persistent state:
+oh-my-kimicode uses `.kimiplugin/` for persistent state:
 - `.kimiplugin/state/` — Mode state files (JSON)
 - `.kimiplugin/plans/` — Planning documents
 - `.kimiplugin/logs/` — Audit logs

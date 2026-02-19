@@ -1,4 +1,4 @@
-# kimiplugin (kp)
+# oh-my-kimicode (kp)
 
 > _Your Kimi CLI, supercharged._
 
@@ -32,10 +32,10 @@ kimiplugin is an **add-on**, not a fork. It uses Kimi's native extension points.
 
 ```bash
 # Install globally
-npm install -g kimiplugin
+npm install -g oh-my-kimicode
 
 # Or use npx
-npx kimiplugin setup
+npx oh-my-kimicode setup
 
 # Run setup
 kp setup
@@ -144,7 +144,7 @@ kimiplugin/
 ## Development
 
 ```bash
-git clone https://github.com/Yeachan-Heo/kimiplugin.git
+git clone https://github.com/islee23520/oh-my-kimicode.git
 cd kimiplugin
 npm install
 npm run build
