@@ -23,12 +23,12 @@ Spawns parallel workers to tackle tasks concurrently.
 ## Usage
 
 ```bash
-kp team [ralph] <N>:<agent-type> "<task description>"
+omk team [ralph] <N>:<agent-type> "<task description>"
 ```
 
 Examples:
-- `kp team 3:executor "find and fix bugs"`
-- `kp team ralph 2:architect "design API"`
+- `omk team 3:executor "find and fix bugs"`
+- `omk team ralph 2:architect "design API"`
 
 ## How It Works
 
@@ -54,9 +54,9 @@ Examples:
 
 ## Commands
 
-- `kp team 3:executor "task"` - Start team
-- `kp team status <name>` - Check status
-- `kp team shutdown <name>` - Stop team
+- `omk team 3:executor "task"` - Start team
+- `omk team status <name>` - Check status
+- `omk team shutdown <name>` - Stop team
 
 ## Best Practices
 

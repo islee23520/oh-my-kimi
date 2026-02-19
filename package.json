@@ -5,9 +5,8 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "kimiplugin": "bin/kimiplugin.js",
-    "kimi-plugin": "bin/kimiplugin.js",
-    "kp": "bin/kimiplugin.js"
+    "oh-my-kimicode": "bin/kimiplugin.js",
+    "omk": "bin/kimiplugin.js"
   },
   "scripts": {
     "build": "tsc",

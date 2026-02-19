@@ -1,5 +1,5 @@
 /**
- * kimiplugin setup - Automated installation
+ * oh-my-kimicode setup - Automated installation
  * Installs prompts, skills, and AGENTS.md
  */
 
@@ -24,8 +24,8 @@ export async function setup(options: SetupOptions = {}): Promise<void> {
   const { force = false, dryRun = false, verbose = false } = options;
   const pkgRoot = getPackageRoot();
 
-  console.log('kimiplugin setup');
-  console.log('================\n');
+  console.log('oh-my-kimicode setup');
+  console.log('====================\n');
 
   // Step 1: Ensure directories exist
   console.log('[1/6] Creating directories...');
@@ -102,7 +102,7 @@ export async function setup(options: SetupOptions = {}): Promise<void> {
   }
   console.log('  Project directories configured.\n');
 
-  console.log('Setup complete! Run "kp doctor" to verify installation.');
+  console.log('Setup complete! Run "omk doctor" to verify installation.');
   console.log('\nNext steps:');
   console.log('  1. Start Kimi CLI in your project directory');
   console.log('  2. Use /prompts:architect, /prompts:executor, /prompts:planner as slash commands');

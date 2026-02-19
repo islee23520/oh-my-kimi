@@ -46,5 +46,5 @@ Cancelled modes:
 
 After cancel:
 - Review `.kimiplugin/state/` for partial results
-- Can resume from checkpoint if needed
+- Can resume from checomkoint if needed
 - Or start fresh with new plan

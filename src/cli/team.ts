@@ -25,18 +25,18 @@ interface TeamConfig {
 export async function teamCommand(args: string[], options: TeamOptions): Promise<void> {
   if (args.length === 0) {
     console.log(`
-kimiplugin team - Parallel worker orchestration
+oh-my-kimicode team - Parallel worker orchestration
 
 Usage:
-  kp team [ralph] <N>:<agent-type> "<task description>"
-  kp team status <team-name>
-  kp team shutdown <team-name>
+  omk team [ralph] <N>:<agent-type> "<task description>"
+  omk team status <team-name>
+  omk team shutdown <team-name>
 
 Examples:
-  kp team 3:executor "analyze codebase for bugs"
-  kp team ralph 2:architect "design new API"
-  kp team status my-team
-  kp team shutdown my-team
+  omk team 3:executor "analyze codebase for bugs"
+  omk team ralph 2:architect "design new API"
+  omk team status my-team
+  omk team shutdown my-team
 `);
     return;
   }
@@ -115,8 +115,8 @@ async function startTeam(args: string[], options: TeamOptions): Promise<void> {
   console.log(`Team started: ${config.name}`);
   console.log(`  Workers: ${config.workerCount}`);
   console.log(`  Directory: ${teamDir}`);
-  console.log(`\nTo check status: kp team status ${config.name}`);
-  console.log(`To shutdown: kp team shutdown ${config.name}`);
+  console.log(`\nTo check status: omk team status ${config.name}`);
+  console.log(`To shutdown: omk team shutdown ${config.name}`);
 }
 
 function parseTeamArgs(args: string[]): TeamConfig {
@@ -167,7 +167,7 @@ function sanitizeTeamName(task: string): string {
 async function showTeamStatus(teamName: string | undefined): Promise<void> {
   if (!teamName) {
     console.error('Error: team name required');
-    console.log('Usage: kp team status <team-name>');
+    console.log('Usage: omk team status <team-name>');
     return;
   }
 
@@ -188,7 +188,7 @@ async function showTeamStatus(teamName: string | undefined): Promise<void> {
 async function shutdownTeam(teamName: string | undefined): Promise<void> {
   if (!teamName) {
     console.error('Error: team name required');
-    console.log('Usage: kp team shutdown <team-name>');
+    console.log('Usage: omk team shutdown <team-name>');
     return;
   }
 

@@ -14,17 +14,17 @@ import { getProjectStateDir } from '../utils/paths.js';
 import { getPackageRoot } from '../utils/package.js';
 
 const HELP = `
-kimiplugin (kp) - Multi-agent orchestration for Kimi CLI
+oh-my-kimicode (omk) - Multi-agent orchestration for Kimi CLI
 
 Usage:
-  kp                    Launch Kimi CLI with enhanced context
-  kp setup              Install prompts, skills, and AGENTS.md
-  kp doctor             Check installation health
-  kp team               Spawn parallel worker sessions
-  kp version            Show version information
-  kp status             Show active modes and state
-  kp cancel             Cancel active execution modes
-  kp help               Show this help message
+  omk                    Launch Kimi CLI with enhanced context
+  omk setup              Install prompts, skills, and AGENTS.md
+  omk doctor             Check installation health
+  omk team               Spawn parallel worker sessions
+  omk version            Show version information
+  omk status             Show active modes and state
+  omk cancel             Cancel active execution modes
+  omk help               Show this help message
 
 Options:
   --force               Force reinstall (overwrite existing files)
@@ -32,8 +32,8 @@ Options:
   --verbose             Show detailed output
 
 Quick Start:
-  1. Run "kp setup" to install all components
-  2. Run "kp doctor" to verify installation
+  1. Run "omk setup" to install all components
+  2. Run "omk doctor" to verify installation
   3. Use /prompts:architect, /prompts:executor for specialized agents
   4. Use $autopilot, $plan, $team for workflow skills
 `;
@@ -156,7 +156,7 @@ async function preLaunch(cwd: string, sessionId: string): Promise<void> {
     JSON.stringify(sessionState, null, 2)
   );
   
-  console.log(`[kp] Session started: ${sessionId}`);
+  console.log(`[omk] Session started: ${sessionId}`);
 }
 
 function runKimi(cwd: string, args: string[], sessionId: string): void {
@@ -216,7 +216,7 @@ async function postLaunch(cwd: string, sessionId: string): Promise<void> {
     // Ignore cleanup errors
   }
   
-  console.log(`[kp] Session ended: ${sessionId}`);
+  console.log(`[omk] Session ended: ${sessionId}`);
 }
 
 async function showStatus(): Promise<void> {

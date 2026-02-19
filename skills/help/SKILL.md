@@ -10,12 +10,12 @@ Provides guidance on using kimiplugin.
 ## Quick Reference
 
 ### Commands
-- `kp` - Launch Kimi with context
-- `kp setup` - Install prompts, skills, AGENTS.md
-- `kp doctor` - Check installation
-- `kp team` - Parallel workers
-- `kp status` - Show active modes
-- `kp cancel` - Cancel active modes
+- `omk` - Launch Kimi with context
+- `omk setup` - Install prompts, skills, AGENTS.md
+- `omk doctor` - Check installation
+- `omk team` - Parallel workers
+- `omk status` - Show active modes
+- `omk cancel` - Cancel active modes
 
 ### Agent Prompts
 - `/prompts:architect` - Design & analysis
@@ -57,8 +57,8 @@ Provides guidance on using kimiplugin.
 
 ## Getting Help
 
-- `kp help` - This help message
-- `kp doctor` - Diagnose issues
+- `omk help` - This help message
+- `omk doctor` - Diagnose issues
 - Skill files: `~/.kimiplugin/skills/{name}/SKILL.md`
 
 ## More Information

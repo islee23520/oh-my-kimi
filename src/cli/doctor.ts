@@ -1,5 +1,5 @@
 /**
- * kimiplugin doctor - Installation diagnostics
+ * oh-my-kimicode doctor - Installation diagnostics
  */
 
 import { existsSync } from 'fs';
@@ -24,8 +24,8 @@ interface CheckResult {
 }
 
 export async function doctor(options: DoctorOptions = {}): Promise<void> {
-  console.log('kimiplugin doctor');
-  console.log('=================\n');
+  console.log('oh-my-kimicode doctor');
+  console.log('======================\n');
   console.log(`Version: ${getPackageVersion()}\n`);
 
   const results: CheckResult[] = [];
@@ -66,7 +66,7 @@ export async function doctor(options: DoctorOptions = {}): Promise<void> {
   console.log();
   
   if (errors === 0 && warnings === 0) {
-    console.log('✓ All checks passed! kimiplugin is ready to use.');
+    console.log('✓ All checks passed! oh-my-kimicode is ready to use.');
   } else if (errors === 0) {
     console.log(`⚠ ${warnings} warning(s). kimiplugin should work, but some features may be limited.`);
   } else {

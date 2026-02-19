@@ -1,4 +1,4 @@
-# oh-my-kimicode (kp)
+# oh-my-kimicode (omk)
 
 > _Your Kimi CLI, supercharged._
 
@@ -8,7 +8,7 @@ oh-my-kimicode transforms Kimi from a single-session agent into a coordinated sy
 
 - **Role prompts** (`/prompts:name`) for specialized agents
 - **Workflow skills** (`$name`) for repeatable execution modes
-- **Team orchestration** (`kp team`) for parallel workers
+- **Team orchestration** (`omk team`) for parallel workers
 - **Persistent state** for long-running sessions
 
 ## Why oh-my-kimicode
@@ -58,8 +58,8 @@ $team 3:executor "fix all TypeScript errors"
 From terminal:
 
 ```bash
-kp team 4:executor "parallelize a multi-module refactor"
-kp team status <team-name>
+omk team 4:executor "parallelize a multi-module refactor"
+omk team status <team-name>
 ```
 
 ## Core Model
@@ -80,7 +80,7 @@ User
 kp                 # Launch Kimi CLI with enhanced context
 kp setup           # Install prompts, skills, AGENTS.md
 kp doctor          # Installation/runtime diagnostics
-kp team ...        # Start/status/shutdown team workers
+omk team ...        # Start/status/shutdown team workers
 kp status          # Show active modes
 kp cancel          # Cancel active execution modes
 kp help            # Show help message

@@ -1,16 +1,16 @@
 ---
 name: doctor
-description: Diagnose and fix kimiplugin installation issues
+description: Diagnose and fix oh-my-kimicode installation issues
 ---
 
 # Doctor Skill
 
-Diagnoses and helps fix kimiplugin installation issues.
+Diagnoses and helps fix oh-my-kimicode installation issues.
 
 ## When to Use
 
 - User says "doctor", "diagnose", "fix installation"
-- kimiplugin not working
+- oh-my-kimicode not working
 - Setup issues
 - Missing components
 
@@ -43,10 +43,10 @@ Common issues and fixes:
 
 | Issue | Fix |
 |-------|-----|
-| Not in PATH | `npm install -g kimiplugin` |
+| Not in PATH | `npm install -g oh-my-kimicode` |
 | Missing prompts | `kp setup --force` |
 | Corrupted config | Remove `~/.kimi/config.json`, re-run setup |
-| Old version | `npm update -g kimiplugin` |
+| Old version | `npm update -g oh-my-kimicode` |
 
 ## Output
 
@@ -68,5 +68,5 @@ Common issues and fixes:
 
 ## Usage
 
-Simply run: `kp doctor`
+Simply run: `omk doctor`
 Or ask: "doctor check my installation"
