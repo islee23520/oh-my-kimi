@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "oh-my-kimicode": "bin/kimiplugin.js",
+    "oh-my-kimi": "bin/kimiplugin.js",
     "omk": "bin/kimiplugin.js"
   },
   "scripts": {
